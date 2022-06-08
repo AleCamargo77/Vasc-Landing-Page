@@ -1,0 +1,35 @@
+@media (max-width: 760px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 0px;
+    }
+
+    .banner-container {
+        margin-top: 100px;
+        gap: 30px
+    } 
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .banner-content img {
+        height: 280px;
+
+    }
+
+
+
+}

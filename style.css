@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #15161B;
+}
+
+:root {
+    --fonte-oswald: 'Oswald', sans-serif;
+    --verde: #1A7993;
+    --cinza: #2C2F37;
+}
+
+/* Cabeçalho */
+header {
+    font-family: var(--fonte-oswald);
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    margin: 30px;
+}
+
+header span {
+    color: #1A7993;
+}
+
+/* Banner 1 */
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 120px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.main-content img {
+    height: 300px;
+}
+
+.main-content p, h2 {
+    color: white;
+    font-family: var(--fonte-oswald);
+}
+
+.main-content h2 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.main-content button {
+    background: var(--verde);
+    padding: 15px 30px;
+    font-family: var(--fonte-oswald);
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.main-content button:hover {
+    background: var(--cinza);
+    color: var(--verde);
+    transition: 0.3s allS;
+}
+
+/* Cards */
+.cards-container h2 {
+    color: white;
+    font-family: var(--fonte-oswald);
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cards-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 180px;
+    background-color: var(--cinza);
+    gap: 20px;
+    color: white;
+    font-family: var(--fonte-oswald);
+}
+
+.card:hover {
+    background: var(--verde);
+    transition: 0.3s allS;
+}
+
+/* Banner 2 */
+.banner-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #1A7993;
+    margin-top: 200px;
+    gap: 215px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;  
+}
+
+.banner-content img {
+    height: 380px;
+}
+
+.banner-content h1 {
+    color: white;
+    font-family: var(--fonte-oswald);
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.banner-content p {
+    color: white;
+    font-family: var(--fonte-oswald);
+    font-weight: normal;
+}
+
+.banner-content button {
+    font-family: var(--fonte-oswald);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 26px;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.banner-content button:hover {
+    background: #2C2F37;
+    color: white;
+    transition: 0.3s allS;
+}
+
+/* Formulário */
+.form-container h2 {
+    font-family: var(--fonte-oswald);
+    color: white;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.form-items {
+    padding: 5px;
+    height: 50px;
+    width: 340px;
+    background: white;
+}
+
+.form-content button {
+    height: 50px;
+    width: 340px;
+    background: var(--verde);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-content button:hover {
+    background: var(--cinza);
+    color: var(--verde);
+    transition: 0.3s allS;
+}
+
+/* Footer */
+.footer-container {
+    margin-top: 100px;
+}
+
+.footer-container h2 {
+    font-size: 26px;
+    font-family: var(--fonte-oswald);
+    font-weight: normal;
+    text-align: center;
+}
+
+.footer-items {
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-items img {
+    height: 40px;
+    width: auto;
+    text-align: center;
+    padding: 5px; 
+    margin-bottom: 50px;
+}
